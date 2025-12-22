@@ -1,0 +1,22 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.7;
+  color: #222;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+.post-content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+  margin-top: 2.5rem;
+}
