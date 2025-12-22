@@ -6,7 +6,7 @@ title: Thrilling Times
 # 🌍 Stories that make us who we are
 
 🌌 **Stories, hikes, road trips, and unforgettable moments**  
-Built around curiosity, solitude, and wonder.
+I have the feeling that many of us have stories worth telling and worth writting to perdure. This blog is an effort for normal people to share their stories and make them eternal and public
 
 ---
 
