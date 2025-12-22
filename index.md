@@ -21,15 +21,8 @@ title: Thrilling Times
 
 ## ✒️ Words That Inspire the Journey
 
-> “Not all those who wander are lost.”  
-> — *J.R.R. Tolkien*
-
-> “Once a year, go someplace you’ve never been before.”  
-> — *Dalai Lama*
-
-> “The world is a book, and those who do not travel read only one page.”  
-> — *Saint Augustine*
-
+> “"If I find in myself a desire which no experience in this world can satisfy, the most probable explanation is that I was made for another world.”  
+> — *C.S. Lewis*
 ---
 
 ## 🧭 Latest Adventures
@@ -37,15 +30,20 @@ title: Thrilling Times
 {% for post in site.posts %}
 <div style="margin-bottom:3rem;">
 
-### 🗺️ [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
+<h3>🗺️ <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 
-📅 *{{ post.date | date: "%B %d, %Y" }}*
+<p>📅 <em>{{ post.date | date: "%B %d, %Y" }}</em></p>
 
-{{ post.excerpt }}
+<p>{{ post.excerpt }}</p>
 
-👉 **[Read more →]({{ site.baseurl }}{{ post.url }})**
+<p>
+  👉 <strong>
+    <a href="{{ site.baseurl }}{{ post.url }}">Read more →</a>
+  </strong>
+</p>
 
 </div>
 
 <hr />
 {% endfor %}
+
