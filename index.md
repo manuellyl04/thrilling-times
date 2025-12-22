@@ -3,42 +3,6 @@ layout: default
 title: Thrilling Times
 ---
 
-<style>
-body {
-  background-color: #0f172a;
-  color: #e5e7eb;
-}
-
-a { color: #93c5fd; }
-
-.card {
-  background: #020617;
-  border-radius: 14px;
-  padding: 1.5rem;
-  margin-bottom: 2.5rem;
-  box-shadow: 0 10px 25px rgba(0,0,0,.4);
-}
-
-.card img {
-  width: 100%;
-  border-radius: 12px;
-  margin-bottom: 1rem;
-}
-
-.hero img {
-  width: 100%;
-  max-width: 900px;
-  border-radius: 16px;
-}
-
-blockquote {
-  border-left: 4px solid #38bdf8;
-  padding-left: 1rem;
-  color: #cbd5f5;
-}
-</style>
-
-
 # 🌍 Stories that make us who we are
 
 🌌 **Stories, hikes, road trips, and unforgettable moments**  
