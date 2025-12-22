@@ -57,21 +57,37 @@ Built around curiosity, solitude, and wonder.
 ## 🧭 Latest Adventures
 
 {% for post in site.posts %}
+{% assign image = post.path | split:'/' | last | replace:'.md','.jpg' %}
+
 <div class="card">
 
-<img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80" alt="Adventure">
+  <a href="{{ site.baseurl }}{{ post.url }}">
+    <img
+      src="{{ site.baseurl }}/assets/img/{{ image }}"
+      alt="{{ post.title }}"
+      onerror="this.style.display='none'"
+    />
+  </a>
 
-<h3>🗺️ <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+  <h3>
+    <a href="{{ site.baseurl }}{{ post.url }}">
+      {{ post.title }}
+    </a>
+  </h3>
 
-<p>📅 <em>{{ post.date | date: "%B %d, %Y" }}</em></p>
+  <p class="muted">
+    {{ post.date | date: "%B %d, %Y" }}
+  </p>
 
-<p>{{ post.excerpt }}</p>
+  <p>{{ post.excerpt }}</p>
 
-<p>
-  👉 <strong>
-    <a href="{{ site.baseurl }}{{ post.url }}">Read more →</a>
-  </strong>
-</p>
+  <p>
+    <strong>
+      <a href="{{ site.baseurl }}{{ post.url }}">Read more →</a>
+    </strong>
+  </p>
 
 </div>
+
 {% endfor %}
+

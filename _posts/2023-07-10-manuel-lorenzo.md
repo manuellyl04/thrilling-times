@@ -13,7 +13,7 @@ As the situation escalated, we were warned that civilians were being actively ta
 
 When an opportunity arose to help at a local hospital, we went. The hospital was overwhelmed, yet remarkably organized, driven by people who had clearly done this before but never wanted to again. We assisted where we could, helping move children — both Palestinian and Israeli — into safer areas and temporary shelters, focusing less on identity and more on the simple fact that they were kids who needed protection.
 
-![Helping in the Hospital](/thrilling-times/assets/img/hospital.jpg)
+![Hospital]({{ site.baseurl }}/assets/img/2023-07-10-manuel-lorenzo.jpg)
 
 The hospital corridors were filled with a quiet urgency. Doctors, nurses, volunteers, and families moved with purpose, speaking softly but acting quickly. Even in fear, there was humanity — shared water, reassuring words, small moments of kindness that felt almost defiant in the face of what was happening outside.
 

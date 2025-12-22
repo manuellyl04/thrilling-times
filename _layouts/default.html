@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
-</head>
-<body>
+<main class="post-content">
+  {% if page.url != "/" %}
+    <p style="margin-bottom:2rem;">
+      ← <a href="{{ site.baseurl }}/">Back to all stories</a>
+    </p>
+  {% endif %}
 
-  <main class="post-content">
-    {{ content }}
-  </main>
-
-</body>
-</html>
+  {{ content }}
+</main>
