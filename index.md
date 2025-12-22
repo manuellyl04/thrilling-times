@@ -38,14 +38,8 @@ blockquote {
 }
 </style>
 
-<div class="hero" style="text-align:center; margin-bottom:3rem;">
-  <img
-    src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80"
-    alt="Adventure landscape"
-  />
-</div>
 
-# 🌍 Thrilling Times
+# 🌍 Stories that make us who we are
 
 🌌 **Stories, hikes, road trips, and unforgettable moments**  
 Built around curiosity, solitude, and wonder.
