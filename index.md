@@ -59,15 +59,18 @@ Built around curiosity, solitude, and wonder.
 {% for post in site.posts %}
 {% assign image = post.path | split:'/' | last | replace:'.md','.jpg' %}
 
-<div class="card">
+<div class="card fade-in">
 
-  <a href="{{ site.baseurl }}{{ post.url }}">
+<a href="{{ site.baseurl }}{{ post.url }}">
+  <div class="card-image">
     <img
       src="{{ site.baseurl }}/assets/img/{{ image }}"
       alt="{{ post.title }}"
-      onerror="this.style.display='none'"
+      loading="lazy"
+      onerror="this.parentElement.style.display='none'"
     />
-  </a>
+  </div>
+</a>
 
   <h3>
     <a href="{{ site.baseurl }}{{ post.url }}">

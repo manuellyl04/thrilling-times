@@ -1,9 +1,45 @@
-<main class="post-content">
-  {% if page.url != "/" %}
-    <p style="margin-bottom:2rem;">
-      ← <a href="{{ site.baseurl }}/">Back to all stories</a>
-    </p>
-  {% endif %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
 
-  {{ content }}
-</main>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+</head>
+<body>
+
+  <main class="post-content">
+    {% if page.url != "/" %}
+      <p style="margin-bottom:2rem;">
+        ← <a href="{{ site.baseurl }}/">Back to all stories</a>
+      </p>
+    {% endif %}
+
+    {{ content }}
+  </main>
+
+  <!-- Reading time script -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const content = document.querySelector(".post-content");
+      if (!content || document.body.classList.contains("home")) return;
+
+      const text = content.innerText || "";
+      const words = text.trim().split(/\s+/).length;
+      const minutes = Math.max(1, Math.round(words / 200));
+
+      const readingTime = document.createElement("p");
+      readingTime.style.color = "#6b7280";
+      readingTime.style.fontSize = "0.9rem";
+      readingTime.style.marginBottom = "2rem";
+      readingTime.innerText = `⏱ ${minutes} min read`;
+
+      content.insertBefore(readingTime, content.children[1]);
+    });
+  </script>
+
+</body>
+</html>
