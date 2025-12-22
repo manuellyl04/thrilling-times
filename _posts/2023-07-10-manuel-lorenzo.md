@@ -28,7 +28,7 @@ Finding a way out of Israel became its own nightmare. I bought multiple flights,
 
 ![Airport cancellations]({{ site.baseurl }}/assets/img/2023-07-10-manuel-lorenzo-1.jpg)
 
-It was ultimately through personal contacts that I managed to secure a way out. Even then, nothing was certain. At the airport, the flight I was scheduled to take was canceled again due to incoming missiles. I ended up boarding another flight to Athens, one that took off under military escort, flanked by fighter jets.
+It was ultimately through my boss personal contacts that I managed to secure a way out. Even then, nothing was certain. At the airport, the flight I was scheduled to take was canceled again due to incoming missiles. I ended up boarding another flight to Athens, one that took off under military escort, flanked by fighter jets.
 
 When we landed in Greece, the contrast was overwhelming.
 
