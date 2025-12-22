@@ -5,6 +5,18 @@ title: Thrilling Times
 
 # 🌍 Thrilling Times
 
-Welcome to **Thrilling Times** — a collection of adventures, trips, and stories.
+Stories, hikes, and adventures with friends.
 
-Stay tuned for hikes, travel, and memories.
+---
+
+{% for post in site.posts %}
+## 🗺️ [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
+
+📅 *{{ post.date | date: "%B %d, %Y" }}*
+
+{{ post.excerpt }}
+
+[Read more →]({{ site.baseurl }}{{ post.url }})
+
+---
+{% endfor %}
