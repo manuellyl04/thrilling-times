@@ -3,32 +3,69 @@ layout: default
 title: Thrilling Times
 ---
 
-<!-- HERO IMAGE -->
-<div style="text-align:center; margin-bottom:2rem;">
+<style>
+body {
+  background-color: #0f172a;
+  color: #e5e7eb;
+}
+
+a { color: #93c5fd; }
+
+.card {
+  background: #020617;
+  border-radius: 14px;
+  padding: 1.5rem;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,.4);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 16px;
+}
+
+blockquote {
+  border-left: 4px solid #38bdf8;
+  padding-left: 1rem;
+  color: #cbd5f5;
+}
+</style>
+
+<div class="hero" style="text-align:center; margin-bottom:3rem;">
   <img
-    src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80"
+    src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80"
     alt="Adventure landscape"
-    style="width:100%; max-width:900px; border-radius:12px;"
   />
 </div>
 
 # 🌍 Thrilling Times
 
-🌄 **Stories, hikes, road trips, and unforgettable moments**  
-✨ Built around curiosity, wanderlust, and good company.
+🌌 **Stories, hikes, road trips, and unforgettable moments**  
+Built around curiosity, solitude, and wonder.
 
 ---
 
 ## ✒️ Words That Inspire the Journey
 
-> “"If I find in myself a desire which no experience in this world can satisfy, the most probable explanation is that I was made for another world.”  
+> “If I find in myself a desire which no experience in this world can satisfy,  
+> the most probable explanation is that I was made for another world.”  
 > — *C.S. Lewis*
+
 ---
 
 ## 🧭 Latest Adventures
 
 {% for post in site.posts %}
-<div style="margin-bottom:3rem;">
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80" alt="Adventure">
 
 <h3>🗺️ <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 
@@ -43,7 +80,4 @@ title: Thrilling Times
 </p>
 
 </div>
-
-<hr />
 {% endfor %}
-
