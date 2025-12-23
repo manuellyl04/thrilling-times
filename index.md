@@ -10,8 +10,6 @@ I have the feeling that many of us have stories worth telling and worth writting
 
 ---
 
-## ✒️ Words That Inspire the Journey
-
 > “If I find in myself a desire which no experience in this world can satisfy,  
 > the most probable explanation is that I was made for another world.”  
 > — *C.S. Lewis*

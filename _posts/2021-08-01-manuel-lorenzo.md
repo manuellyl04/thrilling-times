@@ -5,4 +5,3 @@ excerpt: "Let's start by saying that Russia is not for begginers, is a greate pl
 ---
 ![Redsquare]({{ site.baseurl }}/assets/img/2021-08-01-manuel-lorenzo.jpg)
 ![Home]({{ site.baseurl }}/assets/img/2021-08-01-manuel-lorenzo-1.jpg)
-
