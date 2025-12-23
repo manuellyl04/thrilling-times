@@ -3,10 +3,10 @@ layout: default
 title: Thrilling Times
 ---
 
-# 🌍 Stories that make us who we are
+# 🌍  Just doing it for the plot
 
 🌌 **Stories, hikes, road trips, and unforgettable moments**  
-I have the feeling that many of us have stories worth telling and worth writting to perdure. This blog is an effort for normal people to share their stories and make them eternal and public
+I have the feeling that many of us have stories worth telling and worth writting to perdure. This blog is an effort for normal people to share their stories and make them eternal and public.
 
 ---
 
