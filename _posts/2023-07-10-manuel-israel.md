@@ -18,7 +18,7 @@ We decided to go to the home of a close friend of my boss, a cardiologist, who w
 
 The hospital was overwhelmed, yet remarkably organized. It was run by people who had clearly trained for moments like this but never wanted to see them again. We helped wherever we could, moving patients, assisting staff, helping relocate children into safer areas and temporary shelters. In those moments, identity didn’t matter. We helped both Palestinian and Israeli patients alike. They were children, families, people in pain, and that was all that mattered.
 
-![Hospital]({{ site.baseurl }}/assets/img/2023-07-10-manuel-lorenzo.jpg)
+![Hospital]({{ site.baseurl }}/assets/img/2023-07-10-manuel-israel.jpg)
 
 The corridors were filled with a quiet urgency. Doctors, nurses, volunteers, and families moved with purpose, speaking softly but acting quickly. Even surrounded by fear, there was humanity, shared water, reassuring words, small acts of kindness that felt almost defiant in the face of what was happening outside.
 
