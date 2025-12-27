@@ -26,13 +26,13 @@ We spent the entire night at the hospital. For two nights afterward, I couldn’
 
 Finding a way out of Israel became its own nightmare. I bought multiple flights, sometimes several at the same time, only to have them canceled one after another. Airports were chaotic, screens constantly updating with red “CANCELLED” notices.
 
-![Airport cancellations]({{ site.baseurl }}/assets/img/2023-07-10-manuel-lorenzo-1.jpg)
+![Airport cancellations]({{ site.baseurl }}/assets/img/2023-07-10-manuel-israel-flights.jpg)
 
 It was ultimately through my boss personal contacts that I managed to secure a way out. Even then, nothing was certain. At the airport, the flight I was scheduled to take was canceled again due to incoming missiles. I ended up boarding another flight to Athens, one that took off under military escort, flanked by fighter jets.
 
 When we landed in Greece, the contrast was overwhelming.
 
-![Athens]({{ site.baseurl }}/assets/img/2023-07-10-manuel-lorenzo-2.jpg)
+![Athens]({{ site.baseurl }}/assets/img/2023-07-10-manuel-israel-athens.jpg)
 
 Athens was calm. People were walking, talking, living ordinary lives. The silence felt almost unreal. After days of alarms and fear, the peace was shocking.
 
