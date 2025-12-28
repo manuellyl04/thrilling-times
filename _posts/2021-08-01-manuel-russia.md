@@ -10,7 +10,7 @@ I arrived in Russia under odd circumstances, which already feels like the correc
 
 It was during COVID. I was a student living in Belgium with just enough money to survive the holidays and *maybe* make it back home. Due to travel restrictions, I could only fly to the US from outside the EU, which meant I had to spend two weeks somewhere that wasn’t Europe.
 
-In Canada, I had made friends from Russia, and I had always dreamed about visiting. More than that, I was thirsty for adventure — and Russia stared back at me like a cold beer after a long run.
+In Canada, I had made friends from Russia, and I had always dreamed about visiting. More than that, I was thirsty for adventure, and Russia stared back at me like a cold beer after a long run.
 
 ---
 
@@ -20,7 +20,7 @@ I’m from a small country, and we needed no visa and no COVID test, which confu
 
 At some point, they decided my name was a problem.
 
-They didn’t understand *Manuel*, and my surname — *Lorenzo y Losada* — caused even more confusion. So they gave me a Russian name instead: **“Y Losada”**, literally just the letter *Y*.
+They didn’t understand *Manuel*, and my surname — *Lorenzo y Losada* — caused even more confusion. So they gave me a Russian name instead: **“Y Losada”**, literally just the letter *Y* as my name and *Losada* as a surname.
 
 How cool is that?
 
@@ -29,8 +29,6 @@ The guys at the hostel absolutely lost it laughing when they heard.
 ---
 
 Moscow was overwhelming in the best way.
-
-![Hotel in Moscow]({{ site.baseurl }}/assets/img/2021-08-01-manuel-russia-hotel.jpg)
 
 Impressive. Monumental. Huge. I stepped outside and fell in love every five minutes. I knew instantly that I was in the right place for a two-week adventure.
 
@@ -48,6 +46,8 @@ Now, Russians are many wonderful things.
 Cordial is not always one of them.
 
 I spent 40 minutes preparing a translated message on my phone. I sent screenshots to a Russian friend. She confirmed it was correct. When it was finally my turn, I looked the employee in the eye, pointed at my phone, and smiled confidently.
+
+![Translate Russia]({{ site.baseurl }}/assets/img/2021-08-01-manuel-russia-translate.jpg)
 
 I have no idea what happened next.
 
@@ -88,7 +88,7 @@ Finding the guest house took hours.
 I rang the doorbell. Nothing.  
 I called the number. Someone screamed in Russian.
 
-![Drunk man in the courtyard]({{ site.baseurl }}/assets/img/2021-08-01-manuel-russia-drunk.jpg)
+![Hotel in Russia]({{ site.baseurl }}/assets/img/2021-08-01-manuel-russia-hotel.jpg)
 
 In the middle of the courtyard, I spotted a man drinking vodka straight from the bottle while walking his dog. I translated my problem on my phone and showed it to him.
 
@@ -97,6 +97,8 @@ He gestured for me to follow.
 *Perhaps this drunk angel knows the way*, I thought.
 
 He led me into one of the buildings, down a floor, and knocked on a door. I was fully prepared to run.
+
+![Hotel in Russia]({{ site.baseurl }}/assets/img/2021-08-01-manuel-russia-drunk.jpg)
 
 Another drunk man appeared — presumably the handyman. They pointed at me. They argued. They screamed. They pushed each other.
 
