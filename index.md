@@ -5,9 +5,7 @@ title: Thrilling Times
 
 # 🌍  Just doing it for the plot
 
-🌌 **Stories, hikes, road trips, and unforgettable moments**  
-I have the feeling that many of us have stories worth telling and worth writting to perdure. This blog is an effort for normal people to share their stories and make them eternal and public.
-
+🌌 **Share your most interesting sidequests and make them inmortal**  
 ---
 
 > “If I find in myself a desire which no experience in this world can satisfy,  
