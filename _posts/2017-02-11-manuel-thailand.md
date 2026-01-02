@@ -13,6 +13,8 @@ Enter Khao San Road, Bangkok—the unofficial capital of bad ideas and great sto
 
 Koh Tao was paradise. Crystal water, palm trees, and me on a rented motorbike pretending I knew how to ride it. Scuba diving was unreal—learning hand signals, floating over the ocean floor, seeing visibility so clear it felt fake. I thought, This is it. I’ve cracked life. The universe immediately disagreed. The next day, it started raining. And didn’t stop. Ever. Streets turned into rivers, shops closed, and the vibe shifted from “tropical dream” to “mildly concerning disaster movie.”
 
+![Caterpillar]({{ site.baseurl }}/assets/img/2017-02-11-manuel-thailand/island.jpg)
+
 Returning my motorbike early turned out to be the smartest decision I’ve ever made. That night, the rain became a full tropical storm, and the hotel told us to evacuate. No explanation—just go. I packed everything and headed toward the port, because apparently my survival instinct said, boats = safety. Water was waist-high, my backpack was heavier than my future, and at one point I watched my rented motorbike float past me like it was on vacation.
 
 I got stuck in a strong current, locals yelling at me to hold onto a pillar because they were afraid I’d get swept away—or crushed if it fell. Someone threw me a rope, and I made it to a safer spot, soaked and questioning every life choice. Then salvation arrived: a massive construction caterpillar machine pushing earth to redirect the flood. The driver waved me on like this was totally normal. I climbed aboard, rode through the flood like an action movie extra, and was dropped off somewhere vaguely safe. I nearly kissed the ground, except it was mud.
