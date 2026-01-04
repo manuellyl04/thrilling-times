@@ -5,7 +5,7 @@ title: Thrilling Times
 
 # 🌍 Just doing it for the plot
 
-🌌 **Share your most interesting sidequests and make them immortal**  
+🌌 **Share your most interesting sidequests and make them immortal here**  
 ---
 
 > “If I find in myself a desire which no experience in this world can satisfy,  
