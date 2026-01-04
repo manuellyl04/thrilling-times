@@ -2,6 +2,8 @@
 title: "Lost in Russia"
 date: 2021-08-01
 excerpt: "Russia is not for beginners. During COVID, with little money, no language skills, and a dying phone battery, I tried to cross the country by train — and accidentally unlocked several side quests involving vodka, bears, and a babushka."
+travellers:
+  - manuellorenzo
 ---
 
 ![Red Square in Moscow]({{ site.baseurl }}/assets/img/2021-08-01-manuel-russia-redsquare.jpg)

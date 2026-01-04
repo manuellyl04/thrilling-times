@@ -2,6 +2,8 @@
 title: "Israel During a Rough Time"
 date: 2023-10-07
 excerpt: "We arrived in Israel for work expecting ordinary days, instead, we found ourselves sheltering, helping in a hospital, and witnessing fear and humanity side by side."
+travellers:
+  - manuellorenzo
 ---
 
 I arrived in Israel for work, expecting ordinary days filled with meetings, conversations, shared meals, and a sense of history that always feels close to the surface there. I was traveling with my boss and a coworker, but I arrived before. None of us anticipated that, within hours of landing, the world around us would change so completely.

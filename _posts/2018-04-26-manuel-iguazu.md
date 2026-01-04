@@ -2,6 +2,8 @@
 title: "Iguazu, Lost, Arrested, and Somehow a Legend"
 date: 2018-04-25
 excerpt: "I was leading a group of students in iguazu in a midterm trip when a friend of ours disappered..."
+travellers:
+  - manuellorenzo
 ---
 
 I still remember this as one of the most stressful and saddest moments of my life. The kind where your stomach drops, your brain writes horror movies, and you’re convinced you’ve lost a friend forever. Luckily, for everyone involved, it ended well. Very well. Almost too well.

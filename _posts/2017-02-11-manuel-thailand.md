@@ -2,6 +2,8 @@
 title: "Thailand, flood evacuation"
 date: 2018-02-11
 excerpt: "What started as a diving course in paradise quickly turned into a survival story involving tropical storms, waist-deep floods, and strangers who became heroes. Southeast Asia taught me freedom the hard way."
+travellers:
+  - manuellorenzo
 ---
 ![Advanture]({{ site.baseurl }}/assets/img/2017-02-11-manuel-thailand.jpg)
 
