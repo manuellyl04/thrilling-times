@@ -129,30 +129,36 @@ body {
 
 .post-travellers {
   margin-top: 0.75rem;
+  margin-bottom: 0.75rem;   /* ensures space before Read more */
   display: flex;
-  align-items: center;
+  align-items: center;      /* aligns avatars with "By" */
   gap: 0.5rem;
+  line-height: 1;
 }
 
 .post-travellers::before {
   content: "By";
   font-size: 0.75rem;
   opacity: 0.6;
+  margin-right: 0.25rem;
 }
 
-/* Critical fix: lock avatar size */
+/* Lock avatar size & alignment */
 .inline-adventurer {
   width: 24px;
   height: 24px;
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
 }
 
 .inline-adventurer img {
   width: 24px;
   height: 24px;
-  max-width: none;      /* ← prevents global stretching */
+  max-width: none;      /* prevents global stretching */
   border-radius: 50%;
   object-fit: cover;
+  display: block;       /* removes baseline issues */
   opacity: 0.85;
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
