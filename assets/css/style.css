@@ -110,6 +110,32 @@ img {
 #adventurers .active img {
   outline: 2px solid currentColor;
 }
+/* Small avatars under each post */
+.post-travellers {
+  margin-top: 0.75rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.inline-adventurer img {
+  width: 24px;       /* ← smaller */
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+  opacity: 0.85;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.inline-adventurer img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+.post-travellers::before {
+  content: "By";
+  font-size: 0.75rem;
+  opacity: 0.6;
+  margin-right: 0.25rem;
+}
 
 
 
