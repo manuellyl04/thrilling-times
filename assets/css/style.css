@@ -1,3 +1,7 @@
+/* =========================
+   Base styles
+========================= */
+
 body {
   background: #fafafa;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -5,16 +9,23 @@ body {
   color: #222;
 }
 
-
-img {
+/* Content images only */
+.post-content img,
+.card-image img {
   max-width: 100%;
   border-radius: 12px;
 }
+
+/* =========================
+   Layout & typography
+========================= */
 
 .post-content {
   max-width: 720px;
   margin: 0 auto;
   padding: 1rem;
+  font-size: 1.05rem;
+  line-height: 1.75;
 }
 
 .post-content h1,
@@ -22,10 +33,20 @@ img {
 .post-content h3 {
   margin-top: 2.5rem;
 }
+
+.post-content img {
+  margin: 2rem 0;
+}
+
 .muted {
   color: #6b7280;
   font-size: 0.9rem;
 }
+
+/* =========================
+   Cards
+========================= */
+
 .card-image {
   aspect-ratio: 16 / 9;
   overflow: hidden;
@@ -43,17 +64,9 @@ img {
   animation: fadeUp 0.6s ease both;
 }
 
-.post-content {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 1rem;
-  font-size: 1.05rem;
-  line-height: 1.75;
-}
-
-.post-content img {
-  margin: 2rem 0;
-}
+/* =========================
+   Adventurers (top section)
+========================= */
 
 .adventurers {
   margin: 3rem 0;
@@ -70,26 +83,8 @@ img {
 .adventurer {
   text-decoration: none;
   color: inherit;
-  width: 90px;
-}
-
-.adventurer img {
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid #ddd;
-  transition: transform 0.2s ease;
-}
-
-.adventurer img:hover {
-  transform: scale(1.05);
-}
-
-.adventurer span {
-  display: block;
-  margin-top: 0.5rem;
-  font-size: 0.9rem;
+  width: 56px;
+  position: relative;
 }
 
 .adventurer img {
@@ -97,29 +92,65 @@ img {
   height: 56px;
   border-radius: 50%;
   object-fit: cover;
+  border: 2px solid #ddd;
+  transition: transform 0.2s ease;
 }
 
+.adventurer:hover img {
+  transform: scale(1.05);
+}
+
+.adventurer.active img {
+  outline: 2px solid currentColor;
+}
+
+/* Tooltip (name only on hover) */
 .adventurer .tooltip {
   display: none;
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #111;
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  white-space: nowrap;
 }
 
 .adventurer:hover .tooltip {
   display: block;
 }
 
-#adventurers .active img {
-  outline: 2px solid currentColor;
-}
-/* Small avatars under each post */
+/* =========================
+   Inline adventurers (under posts)
+========================= */
+
 .post-travellers {
   margin-top: 0.75rem;
   display: flex;
+  align-items: center;
   gap: 0.5rem;
 }
 
-.inline-adventurer img {
-  width: 24px;       /* ← smaller */
+.post-travellers::before {
+  content: "By";
+  font-size: 0.75rem;
+  opacity: 0.6;
+}
+
+/* Critical fix: lock avatar size */
+.inline-adventurer {
+  width: 24px;
   height: 24px;
+  flex-shrink: 0;
+}
+
+.inline-adventurer img {
+  width: 24px;
+  height: 24px;
+  max-width: none;      /* ← prevents global stretching */
   border-radius: 50%;
   object-fit: cover;
   opacity: 0.85;
@@ -130,14 +161,10 @@ img {
   transform: scale(1.1);
   opacity: 1;
 }
-.post-travellers::before {
-  content: "By";
-  font-size: 0.75rem;
-  opacity: 0.6;
-  margin-right: 0.25rem;
-}
 
-
+/* =========================
+   Animations
+========================= */
 
 @keyframes fadeUp {
   from {
