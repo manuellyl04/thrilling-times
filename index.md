@@ -3,7 +3,7 @@ layout: default
 title: Thrilling Times
 ---
 
-# 🌍 Just doing it for the plot
+# 🌍 Share your thrilling times!
 
 🌌 **Share your most interesting sidequests and make them immortal**  
 ---
