@@ -92,6 +92,25 @@ img {
   font-size: 0.9rem;
 }
 
+.adventurer img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.adventurer .tooltip {
+  display: none;
+}
+
+.adventurer:hover .tooltip {
+  display: block;
+}
+
+#adventurers .active img {
+  outline: 2px solid currentColor;
+}
+
 
 
 @keyframes fadeUp {

@@ -3,7 +3,7 @@ layout: default
 title: Thrilling Times
 ---
 
-# 🌍 Share your thrilling times!
+# 🌍 Just doing it for the plot
 
 🌌 **Share your most interesting sidequests and make them immortal**  
 ---
@@ -13,13 +13,6 @@ title: Thrilling Times
 > — *C.S. Lewis*
 
 ---
-
-{% comment %}
-========================================
- Adventurer metadata
- Add new travellers here once
-========================================
-{% endcomment %}
 
 {% assign adventurers = 
   {
@@ -31,7 +24,6 @@ title: Thrilling Times
   <h2>Adventurers</h2>
 
   <div class="adventurers-grid">
-
     {% assign all_travellers = site.posts | map: "travellers" | compact | uniq | sort %}
 
     {% for traveller in all_travellers %}
@@ -46,26 +38,30 @@ title: Thrilling Times
         href="?traveller={{ traveller }}"
         class="adventurer"
         data-traveller="{{ traveller }}"
+        aria-label="{{ adventurers[traveller] | default: traveller }}"
       >
         <img
           src="{{ site.baseurl }}/assets/img/adventurers/{{ traveller }}.jpg"
           alt="{{ traveller }}"
           loading="lazy"
         >
-        <span class="name">
-          {{ adventurers[traveller] | default: traveller }}
-        </span>
-        <span class="count">
-          {{ count }} adventure{% if count != 1 %}s{% endif %}
+
+        <span class="tooltip">
+          {{ adventurers[traveller] | default: traveller }}  
+          · {{ count }} adventure{% if count != 1 %}s{% endif %}
         </span>
       </a>
     {% endfor %}
-
   </div>
 
-  <button id="clear-filter" hidden>
-    ✖ Clear filter
-  </button>
+  <div id="filter-info" hidden>
+    <span>
+      Filtering by <strong id="active-traveller"></strong>
+    </span>
+    <button id="clear-filter">
+      Show all adventures
+    </button>
+  </div>
 </section>
 
 ---
@@ -141,7 +137,9 @@ title: Thrilling Times
 
   if (!selectedTraveller) return;
 
-  document.getElementById("clear-filter").hidden = false;
+  document.getElementById("filter-info").hidden = false;
+  document.getElementById("active-traveller").textContent =
+    selectedTraveller.replace(/(^\w)/, m => m.toUpperCase());
 
   document.querySelectorAll(".adventurer").forEach(el => {
     if (el.dataset.traveller === selectedTraveller) {
