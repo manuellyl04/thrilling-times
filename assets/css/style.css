@@ -55,6 +55,44 @@ img {
   margin: 2rem 0;
 }
 
+.adventurers {
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.adventurers-grid {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.adventurer {
+  text-decoration: none;
+  color: inherit;
+  width: 90px;
+}
+
+.adventurer img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+  transition: transform 0.2s ease;
+}
+
+.adventurer img:hover {
+  transform: scale(1.05);
+}
+
+.adventurer span {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+
 
 @keyframes fadeUp {
   from {

@@ -2,6 +2,8 @@
 title: "Saving a Goat in Japan"
 date: 2025-03-27
 excerpt: "During a trip to celebrate my 30th birthday, I was unexpectedly summoned into a side quest in rural Japan. A trapped goat, a pilgrimage, firefighters, and fate itself — this is the story of how I almost became the GOAT."
+travellers:
+  - manuellorenzo
 ---
 
 ![Goat in Japan]({{ site.baseurl }}/assets/img/2025-03-27-manuel-japan.jpg)
