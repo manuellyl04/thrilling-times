@@ -1,43 +1,41 @@
 ---
 title: "The Day I Witnessed a Miracle"
 date: 2025-12-25
-excerpt: "Christmas Mass in a Belgian village church went from carols and a baby in the manger to sirens on the floor. A message the next morning rewrote what we thought we knew."
+excerpt: "Christmas Day church in Belgium. We thought a tragedy had happened. The next day I noticed a miracle had happened and there were more coincidences than I can believe."
 travellers:
   - manuellorenzo
 ---
 
 ![Onze-Lieve-Vrouw Geboortekerk, Nazareth]({{ site.baseurl }}/assets/img/2025-12-25-manuel-nazaret.jpg)
 
-On Christmas morning in 2025, my girlfriend’s family took me to Mass in Nazareth, Belgium. Big brick parish church, winter sky, cemetery out front like it’s been there forever.
+Christmas morning 2025. My girlfriend’s family took me to church in Nazareth, Belgium. Big brick building, cold sky, graves out front.
 
-For a few years I’ve been trying to get better, and part of that has been inching closer to faith even though a lot of people I listen to don’t really go there. Prayer still does something for me I can’t quite explain. Standing still long enough to feel addressed by something bigger than my to-do list.
+I’ve been going back to faith the last few years, even if my favorite podcasts don’t. Prayer still does something I can’t map. I train hard for sports; the calmer head helps there too.
 
-**Dostoevsky** and **Kierkegaard** opened the door. The rest has been showing up and trying things I used to think were not for me. I’m pretty competitive with myself on the sports side, always chasing PBs, and I won’t pretend the steadier head I get from praying hasn’t shown up there too.
+I don’t need every piece proven. I believe, mostly as a Christian. There’s a line from Rumi: “Live life as if everything is rigged in your favor.” I try to live my life instead of fighting it.
 
-I don’t think you can prove all of it on a spreadsheet. I believe anyway, mostly in Christianity. Rumi has a line I like: “Live life as if everything is rigged in your favor.” Life deals you a hand. I try to stop treating that hand like the enemy and actually *live*.
+Inside it was warm and crowded. The normal Christmas service. They had kids on stage acting out Jesus being born, with a real baby. Cute. Almost too cute.
 
-That morning was the usual Christmas thing: candles, warmth, kids, a nativity with a real baby. That part was almost obnoxiously sweet.
+Then everything shifted. Chairs. People talking fast. You felt it in the room: *wrong.*
 
-Then the room changed. Chairs. Voices. You know the feeling when everyone clocks the same thing: *this is not on the schedule.*
+My girlfriend’s mother is an osteopath. She ran over before I’d really seen him. A man on the ground. The service tried to keep going. It couldn’t. Ambulances. The priest stayed calm, big red beard, like Santa in a robe. Tall.
 
-My girlfriend’s mother is an osteopath. She was already moving before I’d really processed it. A man on the floor. The Mass limped on for a bit, people trying to keep some kind of order, then it couldn’t continue. Paramedics. Somewhere in that I noticed the priest: calm hands, shoulders saying *I’ve got this*, like someone steadying a ship. Tall guy, huge red beard, half monk half Santa.
+On the way out he caught my eye and tapped his chest. *It’s okay. He’s being looked after.*
 
-When we filed out he caught my eye and tapped his chest flat: *we’re fine. He’s looked after.*
+We waited outside. Of course *this* was the Sunday I came with everyone. Her grandfather said maybe next time he’d stay home.
 
-We waited outside for her. Typical that this would be the one Mass I do with the whole family. Her grandfather said maybe he’d sit the next one out.
+When she came out, the news sounded final. She did CPR. From what she could tell, he hadn’t made it.
 
-When she came out, the news was what you’d fear. She’d helped with CPR. From what she could see then, he was gone. Had been for a while.
+We drove home in silence.
 
-Quiet drive home. I kept looping Christmas, a baby in straw, and then this.
+Next morning: a message. A news piece. His wife.
 
-Next morning she sent a link. Article. Words from his wife.
+He was alive. Okay. She thanked the church. Said alone at home she could not have saved him. She wrote about believing in people showing up. I read it and cried.
 
-He was alive. Doing okay. She thanked everyone in the church who moved, called, knelt, didn’t look away. Said if it had been just the two of them at home, she couldn’t have done it. She wrote about the church and community in a way that hit harder than the chaos inside had.
+I thought Christmas had given us a death. It gave us a miracle. I still don’t have words that fit.
 
-I was ready for the worst version of the story. What we got didn’t fit my vocabulary.
+A few months later I was in church in Uruguay. They read the story of Lazarus, dead then alive.
 
-Later I went to church again, in Uruguay. That Sunday the reading was **Lazarus**. Stone away, old story, impossible comeback.
+Coincidence? I don’t know.
 
-Luck? Something else? I don’t know.
-
-What I do know: I keep showing up in the Christian church. Not because it’s neat. Because mornings like that one in Nazareth happen, when everything closes in and something, or Someone, still writes another page.
+I know I keep going. That morning in Nazareth is part of why.
