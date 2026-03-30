@@ -30,6 +30,16 @@ We drove home in silence.
 
 Next morning: a message. A news piece. His wife.
 
+I also found the local article about it:
+[HLN article (Dutch)](https://www.hln.be/nazareth-de-pinte/kerkgangers-redden-leven-van-jean-pierre-85-die-hartaanval-kreeg-tijdens-kerstviering-die-vijf-gebroken-ribben-neemt-hij-er-met-plezier-bij~a71a1793/?referrer=https%3A%2F%2Fwww.google.com%2F)
+
+![News article screenshot]({{ site.baseurl }}/assets/img/2025-12-25-manuel-nazaret-article.png)
+
+English translation:
+- Caption under the photo: "Ria Wouters (80) and Jean-Pierre Van den Nieuwenhuysen (85)."
+- Headline: "Churchgoers save the life of Jean-Pierre (85), who suffered a heart attack during the Christmas celebration: 'He gladly accepts those five broken ribs.'"
+- Date/time: "26 December 2025, 17:55."
+
 He was alive. Okay. She thanked the church. Said alone at home she could not have saved him. She wrote about believing in people showing up. I read it and cried.
 
 I thought Christmas had given us a death. It gave us a miracle. I still don’t have words that fit.
