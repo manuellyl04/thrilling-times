@@ -1,7 +1,7 @@
 ---
 title: "Lost in Russia"
 date: 2021-08-01
-excerpt: "Russia is not for beginners. During COVID, with little money, no language skills, and a dying phone battery, I tried to cross the country by train — and accidentally unlocked several side quests involving vodka, bears, and a babushka."
+excerpt: "Russia is not for beginners. During COVID, with little money, no language skills, and a dying phone battery, I tried to cross the country by train, and accidentally unlocked several side quests involving vodka, bears, and a babushka."
 travellers:
   - manuellorenzo
 ---
@@ -22,7 +22,7 @@ I’m from a small country, and we needed no visa and no COVID test, which confu
 
 At some point, they decided my name was a problem.
 
-They didn’t understand *Manuel*, and my surname — *Lorenzo y Losada* — caused even more confusion. So they gave me a Russian name instead: **“Y Losada”**, literally just the letter *Y* as my name and *Losada* as a surname.
+They didn’t understand *Manuel*, and my surname, *Lorenzo y Losada*, caused even more confusion. So they gave me a Russian name instead: **“Y Losada”**, literally just the letter *Y* as my name and *Losada* as a surname.
 
 How cool is that?
 
@@ -42,7 +42,7 @@ The plan: travel from Moscow to Saint Petersburg by overnight train. I romantici
 
 ---
 
-Buying the ticket online didn’t work — all my credit cards were rejected. So I gathered my courage and went to the station in person.
+Buying the ticket online didn’t work, all my credit cards were rejected. So I gathered my courage and went to the station in person.
 
 Now, Russians are many wonderful things.  
 Cordial is not always one of them.
@@ -81,7 +81,7 @@ Inside, she was holding a baby bear.
 
 I froze.
 
-She told me that for 500 rubles, I could pet it and take pictures. For more money, she could show me *other animals*. Although I was extremely curious and very adventurous, I politely declined — slightly afraid of being kidnapped (or adopted by bears).
+She told me that for 500 rubles, I could pet it and take pictures. For more money, she could show me *other animals*. Although I was extremely curious and very adventurous, I politely declined, slightly afraid of being kidnapped (or adopted by bears).
 
 ---
 
@@ -102,7 +102,7 @@ He led me into one of the buildings, down a floor, and knocked on a door. I was 
 
 ![Hotel in Russia]({{ site.baseurl }}/assets/img/2021-08-01-manuel-russia-drunk.jpg)
 
-Another drunk man appeared — presumably the handyman. They pointed at me. They argued. They screamed. They pushed each other.
+Another drunk man appeared, presumably the handyman. They pointed at me. They argued. They screamed. They pushed each other.
 
 Then the handyman **slapped** the man who was helping me and went back inside his apartment.
 
@@ -124,7 +124,7 @@ She hugged me.
 She kissed me.  
 She welcomed me home.
 
-She cooked dinner for me, and we had one of the coolest conversations I can imagine — entirely translated through my phone. She told me stories about her life in the Soviet Union, about change, hardship, and resilience.
+She cooked dinner for me, and we had one of the coolest conversations I can imagine, entirely translated through my phone. She told me stories about her life in the Soviet Union, about change, hardship, and resilience.
 
 I still remember her as one of the kindest people I’ve ever met.
 
