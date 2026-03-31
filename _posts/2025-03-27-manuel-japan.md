@@ -1,7 +1,7 @@
 ---
 title: "Saving a Goat in Japan"
 date: 2025-03-27
-excerpt: "During a trip to celebrate my 30th birthday, I was unexpectedly summoned into a side quest in rural Japan. A trapped goat, a pilgrimage, firefighters, and fate itself — this is the story of how I almost became the GOAT."
+excerpt: "During a trip to celebrate my 30th birthday, I was unexpectedly summoned into a side quest in rural Japan. A trapped goat, a pilgrimage, firefighters, and fate itself, this is the story of how I almost became the GOAT."
 travellers:
   - manuellorenzo
 ---
@@ -19,7 +19,7 @@ Since it was my birthday, I did what any reasonable adult would do: I searched f
 On a train (because of course this happens on a train), I met another tourist who casually mentioned a pilgrimage a few hours from Kyoto. People from all over Japan walk it, he said. Something clicked immediately.  
 (When the universe whispers “side quest unlocked,” you listen.)
 
-The pilgrimage led to Mount Kōya (Kōyasan), one of the most sacred places in Japan and the center of Shingon Buddhism, founded over 1,200 years ago by the monk Kūkai. The area is famous for its temples, forest cemeteries, and long walking paths that pilgrims follow in silence and reflection. Traditionally, people walk for days, staying in temple lodgings, eating simple meals, and questioning their life choices — exactly what I was looking for.
+The pilgrimage led to Mount Kōya (Kōyasan), one of the most sacred places in Japan and the center of Shingon Buddhism, founded over 1,200 years ago by the monk Kūkai. The area is famous for its temples, forest cemeteries, and long walking paths that pilgrims follow in silence and reflection. Traditionally, people walk for days, staying in temple lodgings, eating simple meals, and questioning their life choices, exactly what I was looking for.
 
 ---
 
@@ -34,7 +34,7 @@ One message stuck with me, a well-known Buddhist idea often summarized as:
 
 ---
 
-When I finally arrived in town, I was shaking — not from fear, but from something closer to joy. An enormous happiness rose from within me, calm and powerful at the same time. It felt like peace, but sharper. More present. Something I hadn’t experienced before.
+When I finally arrived in town, I was shaking, not from fear, but from something closer to joy. An enormous happiness rose from within me, calm and powerful at the same time. It felt like peace, but sharper. More present. Something I hadn’t experienced before.
 
 As I walked among temples and reflected on life, aging, and whether I had turned the stove off back home, I noticed something strange.
 
@@ -80,14 +80,14 @@ What happened next was incredible.
 
 ![Firefighters arriving]({{ site.baseurl }}/assets/img/2025-03-27-manuel-japan-firefighter.jpg)
 
-Firefighters rushed down from an upper floor, garage doors flew open, and a truck was ready in seconds. The urgency, the coordination — it felt like a movie.
+Firefighters rushed down from an upper floor, garage doors flew open, and a truck was ready in seconds. The urgency, the coordination, it felt like a movie.
 
 I showed them the message and a photo of the goat. They pointed to the truck. I made an enthusiastic thumbs-up.  
 We parted ways.
 
 With ropes and metal bars, they bent the gate just enough to free the goat. The animal stepped out calmly, then turned back and looked at me.
 
-And I swear — *something passed between us*.  
+And I swear, *something passed between us*.  
 Like I had made a friend.  
 Like I had completed the quest.
 
