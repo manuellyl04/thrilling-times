@@ -18,7 +18,7 @@
 
 
 </head>
-<body>
+<body{% if page.path == "index.md" %} class="home"{% endif %}>
 
   <main class="post-content">
     {% if page.url != "/" %}

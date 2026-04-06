@@ -20,52 +20,6 @@ title: Thrilling Times
   }
 %}
 
-<section class="adventurers">
-  <h2>Adventurers</h2>
-
-  <div class="adventurers-grid">
-    {% assign all_travellers = site.posts | map: "travellers" | compact | uniq | sort %}
-
-    {% for traveller in all_travellers %}
-      {% assign count = 0 %}
-      {% for post in site.posts %}
-        {% if post.travellers contains traveller %}
-          {% assign count = count | plus: 1 %}
-        {% endif %}
-      {% endfor %}
-
-      <a
-        href="?traveller={{ traveller }}"
-        class="adventurer"
-        data-traveller="{{ traveller }}"
-        aria-label="{{ adventurers[traveller] | default: traveller }}"
-      >
-        <img
-          src="{{ site.baseurl }}/assets/img/adventurers/{{ traveller }}.jpg"
-          alt="{{ traveller }}"
-          loading="lazy"
-        >
-
-        <span class="tooltip">
-          {{ adventurers[traveller] | default: traveller }}  
-          · {{ count }} adventure{% if count != 1 %}s{% endif %}
-        </span>
-      </a>
-    {% endfor %}
-  </div>
-
-  <div id="filter-info" hidden>
-    <span>
-      Filtering by <strong id="active-traveller"></strong>
-    </span>
-    <button id="clear-filter">
-      Show all adventures
-    </button>
-  </div>
-</section>
-
----
-
 ## 🧭 Latest Adventures
 
 <div id="posts">
@@ -129,6 +83,50 @@ title: Thrilling Times
 {% endfor %}
 
 </div>
+
+<section class="adventurers">
+  <h2>Adventurers</h2>
+
+  <div class="adventurers-grid">
+    {% assign all_travellers = site.posts | map: "travellers" | compact | uniq | sort %}
+
+    {% for traveller in all_travellers %}
+      {% assign count = 0 %}
+      {% for post in site.posts %}
+        {% if post.travellers contains traveller %}
+          {% assign count = count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+
+      <a
+        href="?traveller={{ traveller }}"
+        class="adventurer"
+        data-traveller="{{ traveller }}"
+        aria-label="{{ adventurers[traveller] | default: traveller }}"
+      >
+        <img
+          src="{{ site.baseurl }}/assets/img/adventurers/{{ traveller }}.jpg"
+          alt="{{ traveller }}"
+          loading="lazy"
+        >
+
+        <span class="tooltip">
+          {{ adventurers[traveller] | default: traveller }}  
+          · {{ count }} adventure{% if count != 1 %}s{% endif %}
+        </span>
+      </a>
+    {% endfor %}
+  </div>
+
+  <div id="filter-info" hidden>
+    <span>
+      Filtering by <strong id="active-traveller"></strong>
+    </span>
+    <button id="clear-filter">
+      Show all adventures
+    </button>
+  </div>
+</section>
 
 <script>
 (function () {
