@@ -41,9 +41,7 @@
       const minutes = Math.max(1, Math.round(words / 200));
 
       const readingTime = document.createElement("p");
-      readingTime.style.color = "#6b7280";
-      readingTime.style.fontSize = "0.9rem";
-      readingTime.style.marginBottom = "2rem";
+      readingTime.className = "reading-time";
       readingTime.innerText = `⏱ ${minutes} min read`;
 
       content.insertBefore(readingTime, content.children[1]);

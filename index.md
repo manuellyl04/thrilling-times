@@ -53,7 +53,7 @@ title: Thrilling Times
     {{ post.date | date: "%B %d, %Y" }}
   </p>
 
-  <p>{{ post.excerpt }}</p>
+  <p>{{ post.excerpt | strip_html | truncatewords: 32 }}</p>
 
   {% if post.travellers %}
   <div class="post-travellers">

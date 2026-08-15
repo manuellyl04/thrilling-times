@@ -43,9 +43,55 @@ body {
   font-size: 0.9rem;
 }
 
+.reading-time {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+/* Wider container on the home page so the card grid can breathe */
+.home .post-content {
+  max-width: 1040px;
+}
+
 /* =========================
    Cards
 ========================= */
+
+#posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.75rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+  margin: 0.25rem 0 0.25rem;
+}
+
+.card h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card h3 a:hover {
+  text-decoration: underline;
+}
 
 .card-image {
   aspect-ratio: 16 / 9;
