@@ -12,7 +12,7 @@ I went to Japan to celebrate my 30th birthday, which already felt dramatic enoug
 
 What impressed me the most wasn’t just the scale of the city, but the cordiality. Everyone seemed calm, polite, and impossibly efficient. Meanwhile, I was a jet-lagged tourist trying to remember which pocket held my dignity.
 
-Since it was my birthday, I did what any reasonable adult would do: I searched for *fun*. I ended up planning the classic **Tokyo–Kyoto–Osaka loop**, which meant sightseeing, eating irresponsibly, and partying just enough to still be able to walk the next day. But I had extra time, and I felt the urge to do something different, something less Instagram, more “this will probably change me.”
+Since it was my birthday, I did what any reasonable adult would do: I searched for *fun*. I ended up planning the classic **Tokyo, Kyoto, Osaka loop**, which meant sightseeing, eating irresponsibly, and partying just enough to still be able to walk the next day. But I had extra time, and I felt the urge to do something different, something less Instagram, more “this will probably change me.”
 
 ---
 
@@ -49,7 +49,7 @@ The goat was trapped in a gate, wedged between metal bars. No one was around. Th
 At first, I thought maybe it was used to monks and didn’t fear humans. That part turned out to be true. But then I realized something else:  
 The goat could not move.
 
-Now, in Shinto belief, nature contains spirits — *kami* — and animals are often seen as messengers or symbols. Also, I’ve always wanted to be the GOAT (Greatest Of All Time). So naturally, I interpreted this as an omen.
+Now, in Shinto belief, nature contains spirits called *kami*, and animals are often seen as messengers or symbols. Also, I’ve always wanted to be the GOAT (Greatest Of All Time). So naturally, I interpreted this as an omen.
 
 This wasn’t a coincidence.  
 This was a **side quest**.
