@@ -3,3 +3,10 @@ description: Adventures with friends
 theme: minima
 permalink: /:title/
 
+# All posts use the post layout automatically — no need to set it in front matter
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post

@@ -1,0 +1,5 @@
+# One entry per adventurer. The key must match:
+#   - the values used in a post's `travellers:` list
+#   - the avatar filename: assets/img/adventurers/<key>.jpg
+manuellorenzo:
+  name: Manuel Lorenzo
