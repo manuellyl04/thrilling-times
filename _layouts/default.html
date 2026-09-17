@@ -30,23 +30,5 @@
     {{ content }}
   </main>
 
-  <!-- Reading time script -->
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const content = document.querySelector(".post-content");
-      if (!content || document.body.classList.contains("home")) return;
-
-      const text = content.innerText || "";
-      const words = text.trim().split(/\s+/).length;
-      const minutes = Math.max(1, Math.round(words / 200));
-
-      const readingTime = document.createElement("p");
-      readingTime.className = "reading-time";
-      readingTime.innerText = `⏱ ${minutes} min read`;
-
-      content.insertBefore(readingTime, content.children[1]);
-    });
-  </script>
-
 </body>
 </html>

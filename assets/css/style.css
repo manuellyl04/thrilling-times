@@ -43,10 +43,49 @@ body {
   font-size: 0.9rem;
 }
 
-.reading-time {
-  color: #6b7280;
-  font-size: 0.9rem;
+/* =========================
+   Post header
+========================= */
+
+.post-header {
   margin-bottom: 2rem;
+}
+
+.post-title {
+  margin: 0 0 0.5rem;
+  line-height: 1.25;
+}
+
+.post-meta {
+  margin: 0 0 0.75rem;
+}
+
+.post-authors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.post-author {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.9rem;
+}
+
+.post-author img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0;
+  border: 2px solid #ddd;
+}
+
+.post-author:hover span {
+  text-decoration: underline;
 }
 
 /* Wider container on the home page so the card grid can breathe */

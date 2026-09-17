@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+
+    <p class="post-meta muted">
+      {{ page.date | date: "%B %d, %Y" }}
+      {% assign words = content | strip_html | number_of_words %}
+      · ⏱ {{ words | divided_by: 200 | at_least: 1 }} min read
+    </p>
+
+    {% if page.travellers %}
+    <div class="post-authors">
+      {% for traveller in page.travellers %}
+        {% assign adventurer = site.data.adventurers[traveller] %}
+        <a class="post-author" href="{{ site.baseurl }}/?traveller={{ traveller }}">
+          <img
+            src="{{ site.baseurl }}/assets/img/adventurers/{{ traveller }}.jpg"
+            alt="{{ adventurer.name | default: traveller }}"
+          >
+          <span>{{ adventurer.name | default: traveller }}</span>
+        </a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </header>
+
+  {{ content }}
+
+</article>

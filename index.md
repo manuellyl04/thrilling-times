@@ -14,12 +14,6 @@ title: Thrilling Times
 
 ---
 
-{% assign adventurers = 
-  {
-    "manuellorenzo": "Manuel Lorenzo"
-  }
-%}
-
 ## 🧭 Latest Adventures
 
 <div id="posts">
@@ -58,10 +52,11 @@ title: Thrilling Times
   {% if post.travellers %}
   <div class="post-travellers">
     {% for traveller in post.travellers %}
+      {% assign adventurer = site.data.adventurers[traveller] %}
       <a
         href="?traveller={{ traveller }}"
         class="inline-adventurer"
-        title="{{ adventurers[traveller] | default: traveller }}"
+        title="{{ adventurer.name | default: traveller }}"
       >
         <img
           src="{{ site.baseurl }}/assets/img/adventurers/{{ traveller }}.jpg"
@@ -98,20 +93,21 @@ title: Thrilling Times
         {% endif %}
       {% endfor %}
 
+      {% assign adventurer = site.data.adventurers[traveller] %}
       <a
         href="?traveller={{ traveller }}"
         class="adventurer"
         data-traveller="{{ traveller }}"
-        aria-label="{{ adventurers[traveller] | default: traveller }}"
+        aria-label="{{ adventurer.name | default: traveller }}"
       >
         <img
           src="{{ site.baseurl }}/assets/img/adventurers/{{ traveller }}.jpg"
-          alt="{{ traveller }}"
+          alt="{{ adventurer.name | default: traveller }}"
           loading="lazy"
         >
 
         <span class="tooltip">
-          {{ adventurers[traveller] | default: traveller }}  
+          {{ adventurer.name | default: traveller }}  
           · {{ count }} adventure{% if count != 1 %}s{% endif %}
         </span>
       </a>
@@ -136,14 +132,15 @@ title: Thrilling Times
   if (!selectedTraveller) return;
 
   document.getElementById("filter-info").hidden = false;
-  document.getElementById("active-traveller").textContent =
-    selectedTraveller.replace(/(^\w)/, m => m.toUpperCase());
 
+  let displayName = selectedTraveller.replace(/(^\w)/, m => m.toUpperCase());
   document.querySelectorAll(".adventurer").forEach(el => {
     if (el.dataset.traveller === selectedTraveller) {
       el.classList.add("active");
+      displayName = el.getAttribute("aria-label") || displayName;
     }
   });
+  document.getElementById("active-traveller").textContent = displayName;
 
   document.querySelectorAll(".card").forEach(card => {
     const travellers = card.dataset.travellers || "";
