@@ -77,6 +77,17 @@ title: Thrilling Times
 
 {% endfor %}
 
+<a
+  class="card share-card fade-in"
+  href="https://github.com/manuellyl04/thrilling-times#share-your-own-story"
+>
+  <span class="share-plus">+</span>
+  <h3>Share your story</h3>
+  <p class="muted">
+    Got a sidequest worth telling? Add it to the collection and make it immortal.
+  </p>
+</a>
+
 </div>
 
 <section class="adventurers">
@@ -112,6 +123,15 @@ title: Thrilling Times
         </span>
       </a>
     {% endfor %}
+
+    <a
+      class="adventurer add-adventurer"
+      href="https://github.com/manuellyl04/thrilling-times#share-your-own-story"
+      aria-label="Join the adventurers"
+    >
+      <span class="add-circle">+</span>
+      <span class="tooltip">Join the adventurers</span>
+    </a>
   </div>
 
   <div id="filter-info" hidden>
